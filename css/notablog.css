@@ -17,6 +17,7 @@
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   overflow-x: auto;
+  justify-content: flex-end;
 }
 
 .Navbar a {
