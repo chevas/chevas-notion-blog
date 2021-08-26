@@ -14,7 +14,7 @@ a.site-title { display: block; position: fixed; height: 20px; line-height: 20px;
   width: 100%;
   height: 56px;
   padding: 13px 20px;
-  padding: 13px 0 13px 20px;
+  padding: 13px 8px 13px 8px;
   /* Background blur stuff. */
   background-color: rgba(255, 255, 255, 0.7);
   background-color: #0B0E14;
@@ -38,7 +38,7 @@ a.site-title { display: block; position: fixed; height: 20px; line-height: 20px;
 .Navbar__Btn {
   border-radius: 0.25rem;
   padding: 0 6px;
-  padding: 0 13px;
+  padding: 0 20px;
   line-height: 1.8125;
   transition: background 120ms ease-in 0s;
   /* For centering inline image */
