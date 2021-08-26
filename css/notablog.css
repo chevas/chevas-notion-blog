@@ -1,6 +1,7 @@
 /* Navbar */
 
-a.site-title { display: block; position: fixed; height: 20px; line-height: 20px; font-size: 16px; font-weight: 600; color: #fff; left: 24px; top: 18px; z-index: 5; }
+a.site-title { display: block; position: fixed; height: 20px; line-height: 20px; font-size: 16px; font-weight: 600; color: #fff; left: 24px; top: 18px; z-index: 9999;
+  text-decoration: none; }
 
 .Navbar {
   display: flex;
@@ -13,6 +14,7 @@ a.site-title { display: block; position: fixed; height: 20px; line-height: 20px;
   width: 100%;
   height: 56px;
   padding: 13px 20px;
+  padding: 13px 0 13px 20px;
   /* Background blur stuff. */
   background-color: rgba(255, 255, 255, 0.7);
   background-color: #0B0E14;
@@ -30,7 +32,7 @@ a.site-title { display: block; position: fixed; height: 20px; line-height: 20px;
 
 .Navbar a:last-child > .Navbar__Btn {
   /* .nav padding 20px */
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .Navbar__Btn {
