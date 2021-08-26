@@ -1,5 +1,7 @@
 /* Navbar */
 
+a.site-title { display: block; position: fixed; height: 20px; line-height: 20px; font-size: 16px; font-weight: 600; color: #fff; left: 24px; top: 18px; z-index: 5; }
+
 .Navbar {
   display: flex;
   align-items: center;
@@ -34,11 +36,13 @@
 .Navbar__Btn {
   border-radius: 0.25rem;
   padding: 0 6px;
+  padding: 0 13px;
   line-height: 1.8125;
   transition: background 120ms ease-in 0s;
   /* For centering inline image */
   display: flex;
   align-items: center;
+  font-weight: 500;
 }
 
 .Navbar__Btn:hover {
@@ -130,6 +134,8 @@
 .Header > *:last-child {
   margin-bottom: 2.5rem;
 }
+
+.Header__Desc { font-weight: 600; }
 
 .Header__DescBigQuoteMark {
   font-size: 1.5em;
